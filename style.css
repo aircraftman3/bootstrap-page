@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+#about-us h1 {
+    padding-bottom: 20px;
+}
+#about-us {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.articles {
+    display: flex;
+}
+
+#our-news h1 {
+    padding-bottom: 20px;
+}
+
+#our-news  {
+    padding-top: 20px;
+}
+
+#company-newsletter h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image {
+    margin: 0 20px 20px 20px;
+    height: 40%;
+    width: 40%;
+}
+
+.form {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.form11 {
+    height: 100px;
+}
+
+.form2 {
+    width: 55%;
+display: none;
+}
