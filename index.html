@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Bootstrap Page</title>
-
-
 </head>
 <body>
 <header>
@@ -52,34 +50,35 @@
             </a>
         </div>
     </div>
+    <div class="sticky-container">
+        <div id="navbar">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark menu">
-
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto smooth-scroll list-unstyled">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about-us">about us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#our-news">our news</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#company-newsletter">company newsletter</a>
-                </li>
-            </ul>
-
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto smooth-scroll list-unstyled">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">about us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#our-news">our news</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#company-newsletter">company newsletter</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-
-    </nav>
+    </div>
 </header>
 <main>
     <div class="container-fluid" id="about-us">
@@ -113,17 +112,6 @@
                     vel
                     turpis nunc eget lorem dolor. In metus vulputate eu scelerisque felis imperdiet proin fermentum.
                     Arcu
-                    bibendum.Quam nulla porttitor massa id neque aliquam vestibulum morbi. Arcu vitae elementum
-                    curabitur vitae nunc sed.
-                </p>
-                <button class="btn btn-secondary" type="submit">Find Out More</button>
-            </div>
-            <div class="container article mr-5 shadow-lg p-3 mb-5 bg-white rounded">
-                <img class="img-fluid mx-auto d-block" src="./pobrane.jpg" alt="news">
-                <p>Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Vitae congue eu consequat ac felis. Pharetra
-                    vel
-                    turpis nunc eget lorem dolor. In metus vulputate eu scelerisque felis imperdiet proin fermentum.
-                    Arcu
                     bibendum. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Arcu vitae elementum
                     curabitur vitae nunc sed.
                 </p>
@@ -140,7 +128,17 @@
                 </p>
                 <button class="btn btn-secondary" type="submit">Find Out More</button>
             </div>
-
+            <div class="container article mr-5 shadow-lg p-3 mb-5 bg-white rounded">
+                <img class="img-fluid mx-auto d-block" src="./pobrane.jpg" alt="news">
+                <p>Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Vitae congue eu consequat ac felis. Pharetra
+                    vel
+                    turpis nunc eget lorem dolor. In metus vulputate eu scelerisque felis imperdiet proin fermentum.
+                    Arcu
+                    bibendum. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Arcu vitae elementum
+                    curabitur vitae nunc sed.
+                </p>
+                <button class="btn btn-secondary" type="submit">Find Out More</button>
+            </div>
         </div>
     </div>
     <hr>
@@ -156,20 +154,15 @@
             tellus. Cursus risus at ultrices mi tempus. </p>
         <p>Quam nulla porttitor massa id neque aliquam vestibulum morbi. Arcu vitae elementum curabitur vitae nunc sed
             velit dignissim sodales. Felis bibendum ut tristique et egestas quis ipsum suspendisse.</p>
-
-
         <div class="form-row align-items-center form">
             <div class="col-sm-10 my-1">
                 <label class="sr-only" for="inlineFormInputName">Name</label>
                 <input type="text" class="form-control" id="inlineFormInputName" placeholder="Enter your name">
             </div>
-
-
             <div class="col-auto my-1">
                 <button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
             </div>
         </div>
-
         <div class="form2 shadow-lg p-3 mb-5 bg-white rounded" id="form2">
             <h5 id="input-name">Welcome PERSON name...</h5>
             <h6>Please enter your details</h6>
@@ -192,12 +185,10 @@
             </div>
         </div>
         <div class="form11"></div>
-
     </div>
     <hr>
 </main>
 <footer>
-
 </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -208,7 +199,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-<script src="main.js"></script>
-
+<script src="./main.js"></script>
 </body>
 </html>

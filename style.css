@@ -1,7 +1,6 @@
 html {
     scroll-behavior: smooth;
 }
-
 .nav-link {
     text-transform: uppercase;
 }
@@ -9,6 +8,7 @@ html {
 #about-us h1 {
     padding-bottom: 20px;
 }
+
 #about-us {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -22,11 +22,11 @@ html {
     padding-bottom: 20px;
 }
 
-#our-news  {
+#our-news {
     padding-top: 20px;
 }
 
-#company-newsletter h1{
+#company-newsletter h1 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -48,5 +48,23 @@ html {
 
 .form2 {
     width: 55%;
-display: none;
+    display: none;
+}
+
+#navbar {
+    overflow: hidden;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky-container {
+    height: 60px;
+}
+
+.navbar2 {
+    opacity: 0.8;
 }
